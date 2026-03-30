@@ -16,10 +16,12 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Print da versão responsiva com CSS puro [DESKTOP]
 
+<img width="1365" height="677" alt="firefoxpc" src="https://github.com/user-attachments/assets/3d662484-7aec-4c5f-baa2-c0e4c2743bd2" />
 
 
 ## Print da versão responsiva com CSS puro [MOBILE] 
 
+<img width="1365" height="682" alt="firefoxcelular" src="https://github.com/user-attachments/assets/74638828-c1df-4400-8a3f-4cc0bbe23ad8" />
 
 
 
