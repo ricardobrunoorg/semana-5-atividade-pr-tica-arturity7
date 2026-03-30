@@ -1,0 +1,106 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:#555;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+.header{
+padding:20px;
+}
+
+.menu{
+display:flex;
+justify-content:flex-end;
+}
+
+.botao-clima{
+background:#e5e5e5;
+padding:15px 35px;
+border-radius:25px;
+text-decoration:none;
+color:#000;
+font-weight:bold;
+}
+
+/* MAIN */
+
+.main{
+padding:40px;
+text-align:center;
+}
+
+/* WIREFRAME BASE */
+
+.wireframe{
+background:#d9d9d9;
+position:relative;
+margin:auto;
+overflow:hidden;
+border-radius:10px;
+}
+
+.wireframe::before,
+.wireframe::after{
+content:"";
+position:absolute;
+width:140%;
+height:2px;
+background:black;
+top:50%;
+left:-20%;
+}
+
+.wireframe::before{
+transform:rotate(45deg);
+}
+
+.wireframe::after{
+transform:rotate(-45deg);
+}
+
+/* BANNER PEQUENO */
+
+.banner-top{
+margin:40px auto;
+}
+
+.pequeno{
+width:400px;
+height:80px;
+}
+
+/* BANNER GRANDE */
+
+.banner-principal{
+margin:40px auto;
+}
+
+.grande{
+width:90%;
+height:120px;
+}
+
+/* CARDS */
+
+.galeria{
+margin-top:50px;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:40px;
+}
+
+.card{
+width:80px;
+height:80px;
+}
+
